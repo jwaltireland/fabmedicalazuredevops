@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '1e8335d4-53c1-4050-886d-00e342f4aa23'
-  imageRepository: 'jwaltirelandfabmedicalazuredevops'
+  imageRepository: 'fabmedicalazuredevops-content-api'
   containerRegistry: 'fabmedicallz1.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/content-api/Dockerfile'
   tag: '$(Build.BuildId)'
