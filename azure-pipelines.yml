@@ -21,7 +21,8 @@ variables:
   imageRepository: 'fabmedicalazuredevops-content-web'
   containerRegistry: 'fabmedicallz1.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/content-web/Dockerfile'
-  tag: '$(Build.BuildId)'
+  #tag: '$(Build.BuildId)'
+  tag: 'latest'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
